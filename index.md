@@ -1,5 +1,6 @@
 ---
 layout: default
 title: HOME
+description: Description for home
 ---
-<h1>Index (MD)</h1>
+<p>Index (MD)</p>
