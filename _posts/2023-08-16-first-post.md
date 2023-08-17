@@ -7,5 +7,5 @@ categories: [blog]
 <p>First post</p>
 
 <div>
-    <img src="{{ site.url }}/Web.GHP.IO/_assets/img/img-1.jpg">
+    <img src="{{ site.url }}/Web.GHP.IO/assets/img/img-1.jpg">
 </div>
