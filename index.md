@@ -6,7 +6,7 @@ description: Description for index
 <p>Index (2)</p>
 
 <ul>
-    {% for category in site.categories %}
-        <li><a href="{{ site.url }}/Web.GHP.IO/category/{{ category | first | slugify }}/index.html">{{ category | first }}</a></li>
+    {% for post in site.categories.docs %}
+        <li><a href="{{ site.url }}/Web.GHP.IO/{{ post.url }}">{{ post }}</a></li>
     {% endfor %}
 </ul>
