@@ -7,6 +7,6 @@ description: Description for index
 
 <ul>
     {% for post in site.categories.docs %}
-        <li><a href="{{ site.url }}/Web.GHP.IO/{{ post.url }}">{{ post.title }}</a></li>
+        <li><a href="{{ site.url }}/Web.GHP.IO{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
