@@ -5,7 +5,7 @@ description: Description for index
 ---
 <link href="{{ site.url }}/Web.GHP.IO/assets/css/style.css" rel="stylesheet">
 
-<p>Index (2)</p>
+<p>Index (1)</p>
 
 <ol>
     {% for post in site.categories.docs %}
