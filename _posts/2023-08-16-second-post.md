@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Second post
-permalink: /second-post-1
+permalink: /tai-lieu/second-post
 categories: [docs]
 ---
 <p>Second post</p>
