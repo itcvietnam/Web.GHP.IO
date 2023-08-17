@@ -2,7 +2,7 @@
 layout: default
 title: First post
 categories: [blog]
-permalink: /bai-viet/first-post
+permalink: /bai-viet/first-post-slug
 ---
 <p>First post</p>
 
