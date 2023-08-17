@@ -16,6 +16,12 @@ description: Description for index
     {% endfor %}
 </ol>
 
+<ul>
+    {% for category in site.categories %}
+        <li>{{ category }}</li>
+    {% endfor %}
+</ul>
+
 <hr />
 
 <ul>
