@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Third post
-categories: [site.data.category.blog]
+categories: [Bài Viết]
 permalink: /bai-viet/third-post
 ---
 <p>Third post</p>
