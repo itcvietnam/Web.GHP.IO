@@ -1,1 +1,1 @@
-permalink: /:slugified_categories/:title
+permalink: /:categories/:title
