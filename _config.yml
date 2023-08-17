@@ -1,1 +1,5 @@
 permalink: /:title/
+paginate: 2
+plugins:
+    - jekyll-paginate
+    - jekyll-category-pages
