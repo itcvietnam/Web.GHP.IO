@@ -15,3 +15,11 @@ description: Description for index
         <li><a href="{{ site.url }}/Web.GHP.IO{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ol>
+
+<hr />
+
+<ul>
+    {% for post in site.data.blogs %}
+        <li>{{ post.title }}</li>
+    {% endfor %}
+</ul>
