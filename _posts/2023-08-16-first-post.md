@@ -5,3 +5,7 @@ categories: [blog]
 #permalink: /bai-viet/first-post
 ---
 <p>First post</p>
+
+<div>
+    <img src="{{ site.url }}/Web.GHP.IO/_assets/img/img-1.jpg">
+</div>
