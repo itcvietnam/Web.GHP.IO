@@ -23,3 +23,5 @@ description: Description for index
         <li>{{ post.title }}</li>
     {% endfor %}
 </ul>
+
+<p>{{ site.data.info.copyright }}</p>
