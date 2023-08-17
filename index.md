@@ -27,7 +27,7 @@ description: Description for index
             <h4>{{ category[0] }}</h4>
             <ul>
                 {% for post in category[1] %}
-                    <li><a href="{{ site.url }}/Web.GHP.IO{{ post.url }}">{{ post.title }}</a></li>
+                    <li><a href="{{ site.url | slugify: 'latin' }}/Web.GHP.IO{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
         </li>
