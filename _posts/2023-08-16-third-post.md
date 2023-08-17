@@ -2,6 +2,6 @@
 layout: default
 title: Third post
 category: Bài Viết
-#permalink: /bai-viet/third-post
+permalink: /bai-viet/:title
 ---
 <p>Third post</p>
