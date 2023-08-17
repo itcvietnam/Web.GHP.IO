@@ -1,4 +1,5 @@
 permalink: /:title
+category_layout: category
 paginate: 2
 plugins:
     - jekyll-paginate
