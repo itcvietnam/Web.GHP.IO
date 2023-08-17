@@ -3,7 +3,7 @@ layout: default
 title: Index
 description: Description for index
 ---
-<p>Index (7)</p>
+<p>Index (8)</p>
 
 <ol>
     {% for post in site.categories.docs %}
@@ -17,7 +17,7 @@ description: Description for index
 </ol>
 <ol>
     {% for post in site.categories[Bài Viết] %}
-        <li><a href="{{ site.url }}/Web.GHP.IO{{ post.url }}">{{ post.title }}</a></li>
+        <li><a href="{{ site.url | slugify: 'latin' }}/Web.GHP.IO{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ol>
 
