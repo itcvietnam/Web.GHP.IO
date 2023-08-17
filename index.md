@@ -3,7 +3,7 @@ layout: default
 title: Index
 description: Description for index
 ---
-<p>Index (8)</p>
+<p>Index (9)</p>
 
 <ol>
     {% for post in site.categories.docs %}
