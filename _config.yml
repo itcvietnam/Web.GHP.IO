@@ -3,3 +3,5 @@ collections:
     docs:
         output: true
 collections_dir: contents
+plugins:
+  - flatify
