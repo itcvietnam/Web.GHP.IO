@@ -3,7 +3,7 @@ layout: default
 title: Index
 description: Description for index
 ---
-<p>Index (1)</p>
+<p>Index (11)</p>
 
 {% assign docs = site.categories.docs | where_exp: "item", "item.status == 'a'" %}
 <ol style="color: red;">
