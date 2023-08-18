@@ -3,7 +3,7 @@ layout: default
 title: Index
 description: Description for index
 ---
-<p>Index (1)</p>
+<p>Index (2)</p>
 
 <ol>
     {% for post in site.categories.docs %}
@@ -31,6 +31,15 @@ description: Description for index
                 {% endfor %}
             </ul>
         </li>
+    {% endfor %}
+</ul>
+
+<hr />
+
+<h2>Content:</h2>
+<ul>
+    {% for content in site.contents %}
+        <li><a href="{{ site.url }}/Web.GHP.IO{{ content.url }}">{{ content.title }}</a></li>
     {% endfor %}
 </ul>
 
