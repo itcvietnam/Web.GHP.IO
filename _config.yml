@@ -6,4 +6,4 @@ collections_dir: contents
 plugins:
   - flatify
 paginate: 2
-paginate_path: /page-:num
+paginate_path: /posts/page-:num
