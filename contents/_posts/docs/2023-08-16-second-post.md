@@ -3,7 +3,7 @@ layout: default
 title: Second post
 categories: [docs]
 #permalink: /tai-lieu/second-post
-status: no
+status: khong
 ---
 <p>Second post (in docs dir)</p>
 
