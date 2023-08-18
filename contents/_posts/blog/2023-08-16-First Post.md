@@ -1,7 +1,7 @@
 ---
 layout: default
 title: First post
-categories: [blog]
+categories: [blog, docs]
 permalink: /bai-viet/first-post-slug
 ---
 <p>First post</p>
