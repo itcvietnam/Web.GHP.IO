@@ -44,7 +44,7 @@ description: Description for index
 
 <h2>Docs:</h2>
 <ul>
-    {% assign collectionDocs = site.docs | where_exp: "item", "item.type == 'feature'" %}
+    {% assign collectionDocs = site.docs | where_exp: "item", "item.type == 'yes'" %}
     {% for doc in collectionDocs %}
         <li><a href="{{ site.url }}/Web.GHP.IO{{ doc.url }}">{{ doc.title }}</a></li>
     {% endfor %}
