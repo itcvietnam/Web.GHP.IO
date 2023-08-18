@@ -5,7 +5,7 @@ description: Description for index
 ---
 <p>Index (1)</p>
 
-{% assign docs = site.categories.docs | where_exp: "item", "item.status == 'yes'" %}
+{% assign docs = site.categories.docs | where_exp: "item", "item.status == 'a'" %}
 <ol style="color: red;">
     {% for post in docs %}
         <li><a href="{{ site.url }}/Web.GHP.IO{{ post.url }}">{{ post.title }}</a></li>
