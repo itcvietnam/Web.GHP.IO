@@ -5,12 +5,15 @@ description: Description for index
 ---
 <p>Index (1)</p>
 
-{% assign docs = site.categories.docs | where_exp: "item","item.status == 'yes'" %}
+{% assign docs = site.categories.docs | where_exp: "item","item.status == yes" %}
 <ol style="color: green;">
     {% for post in docs %}
         <li><a href="{{ site.url }}/Web.GHP.IO{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ol>
+
+<hr />
+
 <ol>
     {% for post in site.categories.blog %}
         <li><a href="{{ site.url }}/Web.GHP.IO{{ post.url }}">{{ post.title }}</a></li>
