@@ -3,5 +3,3 @@ collections:
     docs:
         output: true
 collections_dir: contents
-category:
-  blog: Bài Viết
