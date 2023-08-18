@@ -3,9 +3,9 @@ layout: default
 title: Index
 description: Description for index
 ---
-<p>Index (1)</p>
+<p>Index (2)</p>
 
-{% assign docs = site.categories.docs | where_exp:"status","status == yes" %}
+{% assign docs = site.categories.docs %}
 <ol style="color: blue;">
     {% for post in docs %}
         <li><a href="{{ site.url }}/Web.GHP.IO{{ post.url }}">{{ post.title }}</a></li>
