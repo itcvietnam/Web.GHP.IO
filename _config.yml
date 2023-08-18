@@ -6,5 +6,5 @@ collections_dir: contents
 plugins:
   - flatify
   - jekyll-paginate
-paginate: 2
+paginate: 1
 paginate_path: /page-:num
