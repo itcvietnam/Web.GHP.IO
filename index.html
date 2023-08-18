@@ -3,7 +3,17 @@ layout: default
 title: Index
 description: Description for index
 ---
-<p>Index (11)</p>
+<p>Index (1)</p>
+
+<hr />
+
+<ul>
+    {% for post in paginator.posts %}
+        <li>{{ post.title }}</li>
+    {% endfor %}
+</ul>
+
+<hr />
 
 {% assign docs = site.categories.docs | where_exp: "item", "item.status == 'a'" %}
 <ol style="color: red;">
