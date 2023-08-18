@@ -2,4 +2,4 @@ permalink: /:categories/:title
 collections:
     docs:
         output: true
-collections_dir: _contents
+collections_dir: contents
